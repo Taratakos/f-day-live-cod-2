@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Friday Live Coding</title>
+  </head>
+  <body>
+    <!-- Ширина контентної області обмжена = 1200px згідно макету
+    Контентна обл завжди повинна бути обмежена. Для цього необхідно всередину блока header вкласти  блок wrapper -->
+    <!-- Гарна методика робити логотип з посилланням -->
+    <header class="header">
+      <div class="wrapper">
+        <!-- Logo можна використати як заголовок h1 якщо він текстовий  -->
+        <a href="#">Logo</a>
+        <nav class="header__navigation">
+          <ul class="navigation">
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Product</li>
+          </ul>
+          <!-- Кожна кнопка являється блоком, вона незалежна і її можна перевикористати  -->
+          <div class="header__buttons">
+            <!-- Клас button - відповідає за шрифти, зкруглення бордеру, клас button_colored - це модифікатор кнопки-->
+            <button class="button button_bordered">Sign In</button>
+            <button class="button button_colored">Sign Up</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Section Promo -->
+    <section class="promo">
+      <div class="wrapper">
+        <div class="promo__content">
+          <h1>The Design Thinking superpowers</h1>
+          <p>
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+          <div class="promo__buttons">
+            <!-- класична кнопка -->
+            <button class="button button_colored">Get started</button>
+            <!-- лінк з іконкою -->
+            <a href="#" class="link-button"
+              ><span class="ico ico_play"></span> Watch the Video
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Tools -->
+    <section class="tools">
+      <div class="wrapper">
+        <h2>We design tools to unveil your superpowers</h2>
+        <!-- 4-ьох колонковий layout. Зробимо окремий блок, який буде малювати нам чотири колонки -->
+        <div class="layout-4-column">
+          <div class="tool">
+            <div class="tool__icon">
+              <span class="icon-square icon-square_violet"></span>
+              <h4>First click tests</h4>
+              <p>While most people enjoy casino gambling,</p>
+            </div>
+          </div>
+        </div>
+        <div class="tolls-button">
+          <button class="button button_colored">Sign Up Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- Section Strategies -->
+    <section class="strategies">
+      <!-- Ми могли б зробити один великий wrapper і помістити туди всі елементи в яких немає background. Але якщо ми захочемо для якогось блоку зробити background нам прийдеться поміняти повністю структуру. -->
+      <div class="wrapper">
+        <h2>Marketing strategies</h2>
+        <p class="strategies__description">
+          Join 40,000+ other marketers and get proven strategies on email
+          marketing
+        </p>
+        <div class="startegies__tags">
+          <span class="tag tag_selected">All</span>
+          <span class="tag tag_bordered">Art</span>
+          <span class="tag tag_bordered">Culture</span>
+          <span class="tag tag_bordered">Design</span>
+        </div>
+        <div class="layout-3-column">
+          <div class="strategy block-shadowed">
+            <img src="./img/strategies/1.jpg" alt="strategy" />
+            <h3>Increasing Prosperity With Positive Thinking</h3>
+            <div class="startegies__tags">
+              <span class="tag tag_colored">Art</span>
+              <span class="tag tag_colored">Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section About-Us -->
+    <section class="about-us">
+      <div class="wrapper">
+        <h2>About Us</h2>
+        <p>
+          Your About Us page is vital. It’s often the first stop in any user’s
+          journey through a website or blog. It also shouldn’t be their last,
+          because first impressions count online just as much as they do in the
+          real world. If your visitors aren’t impressed, you can expect them to
+          leave without reading your awesome content or completing a conversion
+          action (e.g., signing up for your newsletter, making a purchase).
+        </p>
+      </div>
+      <div class="layout-3-column">
+        <div class="employee block-shadowed">
+          <div class="employee__content">
+            <h5>Kathy Rosenberg</h5>
+            <p class="employee__title">Product Manager</p>
+            <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Contact Us -->
+    <section class="contact-us">
+      <div class="wrapper">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="layout-2-column">
+        <div class="contact-us__content">
+          <p>
+            Your About Us page is vital. It’s often the first stop in any user’s
+            journey through a website or blog. It also shouldn’t be their last,
+            because first impressions count online just as much as they do in
+            the real world. If your visitors aren’t impressed, you can expect
+            them to leave without reading your awesome content or completing a
+            conversion action (e.g., signing up for your newsletter, making a
+            purchase).
+          </p>
+          <p>
+            <span class="ico ico_phone"></span>
+            <a href="tel:+375223450099">+375 (22) 345-00-99</a>
+          </p>
+          <p>
+            <span class="ico ico_letter"></span>
+            <a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-us__form">
+          <form action method="post">
+            <div class="layout-2-column">
+              <input type="text" name="name" placeholder="Your name" />
+              <input type="email" name="email" id="" placeholder="Your email" />
+            </div>
+            <textarea name="question" cols="30" rows="10"></textarea>
+          </form>
+          <div class="contact-us__button">
+            <button type="submit" class="button button_colored">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="layout-4-column">
+          <a href="#" class="logo">Logo</a>
+          <div class="footer-navigation">
+            <h4>Quick Links</h4>
+            <ul class="footer-navigation__links">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
