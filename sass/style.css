@@ -1,0 +1,80 @@
+@charset "UTF-8";
+html {
+  font-size: 10px;
+}
+
+body {
+  /* задаємо розмір шрифта відносно HTML */
+  font-size: 1.6rem;
+  font-family: "Open Sans", Verdana, sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", Verdana, sans-serif;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 54px; /* 122.727% */
+}
+
+h2 {
+  font-size: 34px;
+  font-style: normal;
+  line-height: 46px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.wrapper {
+  max-width: 1197px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #fff;
+  /* shadow */
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  padding: 15px 0 17px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 28px; /* 186.667% */
+}
+
+.contact-us {
+  background-color: #ffeee1;
+}
+
+/*# sourceMappingURL=style.css.map */

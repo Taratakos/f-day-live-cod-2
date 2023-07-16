@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./sass/style.css" />
     <title>Friday Live Coding</title>
   </head>
   <body>
@@ -17,23 +17,23 @@
     Контентна обл завжди повинна бути обмежена. Для цього необхідно всередину блока header вкласти  блок wrapper -->
     <!-- Гарна методика робити логотип з посилланням -->
     <header class="header">
-      <div class="wrapper">
+      <div class="wrapper header__wrapper">
         <!-- Logo можна використати як заголовок h1 якщо він текстовий  -->
-        <a href="#">Logo</a>
+        <a href="#" class="logo">Logo</a>
         <nav class="header__navigation">
           <ul class="navigation">
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Product</li>
+            <li class="navigation__link">Home</li>
+            <li class="navigation__link">Services</li>
+            <li class="navigation__link">About</li>
+            <li class="navigation__link">Product</li>
           </ul>
-          <!-- Кожна кнопка являється блоком, вона незалежна і її можна перевикористати  -->
-          <div class="header__buttons">
-            <!-- Клас button - відповідає за шрифти, зкруглення бордеру, клас button_colored - це модифікатор кнопки-->
-            <button class="button button_bordered">Sign In</button>
-            <button class="button button_colored">Sign Up</button>
-          </div>
         </nav>
+        <!-- Кожна кнопка являється блоком, вона незалежна і її можна перевикористати  -->
+        <div class="header__buttons">
+          <!-- Клас button - відповідає за шрифти, зкруглення бордеру, клас button_colored - це модифікатор кнопки-->
+          <button class="button button_bordered">Sign In</button>
+          <button class="button button_colored">Sign Up</button>
+        </div>
       </div>
     </header>
     <!-- Section Promo -->
