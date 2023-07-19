@@ -1,0 +1,17 @@
+// placeholder збирає всі наші селектори для яких ми extend-имо даний transion в даний placeholder  і пише їх в одне місце. в файлі css отримаємо: .block3, .block2, .block1 {  transition: all 0.3s ease-out; }
+
+// .block1 {
+//   @extend %transition;
+// }
+
+// .block2 {
+//   @extend %transition;
+// }
+
+// .block3 {
+//   @extend %transition;
+// }
+
+%transition {
+  transition: all 0.3s ease-out;
+}
