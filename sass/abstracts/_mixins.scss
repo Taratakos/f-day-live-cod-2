@@ -1,0 +1,7 @@
+// Це означає, що ми передаємо в mixin значення size. В size ми передаватимемо font-size.
+@mixin font($size, $height, $weight: bold, $style: normal) {
+  font-size: $size;
+  font-style: $style;
+  line-height: $height;
+  font-weight: $weight;
+}
