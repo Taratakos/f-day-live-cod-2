@@ -4,13 +4,13 @@ html {
 
 body {
   /* задаємо розмір шрифта відносно HTML */
-  font-size: 1.6rem;
-  font-family: "Open Sans", Verdana, sans-serif;
+  @extend %font-prim;
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
 }
 
 h1 {
-  font-family: "Poppins", Verdana, sans-serif;
-  @include font(44px, 54px);
+  @extend %font-add;
+  @include font($size: 44px, $height: 54px);
   // font-family: "Poppins", Verdana, sans-serif;
   // font-style: normal;
   // font-weight: bold;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  @include font(34px, 46px);
+  @include font($size: 34px, $height: 46px);
 }
 
 h3 {
@@ -27,9 +27,9 @@ h3 {
 }
 
 h4 {
-  @include font(20px, 30px, 600);
+  @include font($size: 20px, $height: 30px, $weight: 600);
 }
 
 h5 {
-  @include font(16px, 26px);
+  @include font($size: 16px, $height: 26px);
 }
