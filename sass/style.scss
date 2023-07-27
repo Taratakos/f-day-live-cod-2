@@ -10,12 +10,17 @@
 @import "base/buttons";
 @import "base/icons";
 @import "base/logo";
+@import "base/normalize";
+@import "base/tags";
 
 // Layouts
-@import "layout/wrapper";
+@import "layout/columns";
 @import "layout/header";
+@import "layout/wrapper";
 
 // Components
 @import "components/contact-us";
 @import "components/navigation";
 @import "components/promo";
+@import "components/strategies";
+@import "components/tools";

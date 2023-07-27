@@ -5,7 +5,7 @@ html {
 body {
   /* задаємо розмір шрифта відносно HTML */
   @extend %font-prim;
-  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: bold);
 }
 
 h1 {
@@ -32,4 +32,9 @@ h4 {
 
 h5 {
   @include font($size: 16px, $height: 26px);
+}
+
+.block-shadowed {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
