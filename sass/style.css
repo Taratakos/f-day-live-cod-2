@@ -129,7 +129,6 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -501,6 +500,10 @@ h5 {
   align-items: center;
 }
 
+.link-button__text {
+  margin-left: 9px;
+}
+
 .ico {
   cursor: pointer;
   display: inline-block;
@@ -700,7 +703,6 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -1077,6 +1079,10 @@ ul {
 .wrapper {
   max-width: 1197px;
   margin: 0 auto;
+}
+
+.about-us__title {
+  margin: 0 0 14px;
 }
 
 .contact-us {
