@@ -422,7 +422,7 @@ body {
   font-size: 1.6rem;
   font-style: normal;
   line-height: 2.6rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 h1 {
@@ -531,31 +531,31 @@ h5 {
 }
 
 .ico_play {
-  background-image: url("../../img/icons/play.svg");
+  background-image: url("../../../src/img/icons/play.svg");
   width: 18px;
   height: 19px;
 }
 
 .ico_arrow {
-  background-image: url("../../img/icons/arrow.svg");
+  background-image: url("../../../src/img/icons/arrow.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_snake {
-  background-image: url("../../img/icons/snake.svg");
+  background-image: url("../../../src/img/icons/snake.svg");
   width: 18px;
   height: 14px;
 }
 
 .ico_heart {
-  background-image: url("../../img/icons/heart.svg");
+  background-image: url("../../../src/img/icons/heart.svg");
   width: 17px;
   height: 15px;
 }
 
 .ico_clock {
-  background-image: url("../../img/icons/clock.svg");
+  background-image: url("../../../src/img/icons/clock.svg");
   width: 15px;
   height: 17px;
 }
@@ -1085,6 +1085,50 @@ ul {
   margin: 0 0 14px;
 }
 
+.about-us__description {
+  margin: 0 0 45px;
+}
+
+.employee-container {
+  padding-right: 32px;
+}
+
+.employee {
+  display: flex;
+  padding: 35px;
+  position: relative;
+}
+
+.employee__name {
+  margin: 0;
+}
+
+.employee__title {
+  margin: 0;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 14px;
+  font-weight: normal;
+}
+
+.employee__contact {
+  text-decoration: none;
+  color: #1943ef;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 14px;
+  font-weight: normal;
+}
+
+.employee__photo {
+  border-radius: 50%;
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  top: 20px;
+  right: -32px;
+}
+
 .contact-us {
   background-color: #ffeee1;
   padding: 62px 82px;
@@ -1195,7 +1239,7 @@ ul {
 }
 
 .tools__wrapper {
-  background-image: url("../../img/backgrounds/tools-bg.svg");
+  background-image: url("../../../src/img/backgrounds/tools-bg.svg");
   background-position: center bottom;
   background-size: 100%;
   padding-bottom: 90px;

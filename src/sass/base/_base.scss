@@ -5,7 +5,7 @@ html {
 body {
   /* задаємо розмір шрифта відносно HTML */
   @extend %font-prim;
-  @include font($size: 1.6rem, $height: 2.6rem, $weight: bold);
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
 }
 
 h1 {
