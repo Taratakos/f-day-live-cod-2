@@ -560,6 +560,31 @@ h5 {
   height: 17px;
 }
 
+.ico_phone {
+  background-image: url("../../../src/img/icons/phone.svg");
+  width: 13px;
+  height: 13px;
+}
+
+.ico_letter {
+  background-image: url("../../../src/img/icons/letter.svg");
+  width: 11px;
+  height: 8px;
+}
+
+.icon-round {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-round_white {
+  background-color: #ffffff;
+}
+
 .logo {
   display: flex;
 }
@@ -1081,6 +1106,10 @@ ul {
   margin: 0 auto;
 }
 
+.about-us {
+  padding: 30px 0 100px 0;
+}
+
 .about-us__title {
   margin: 0 0 14px;
 }
@@ -1134,6 +1163,16 @@ ul {
   padding: 62px 82px;
 }
 
+.contact-us__link {
+  margin: 0 0 19px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 26px;
+  font-weight: normal;
+}
+
 .contact-us__form input,
 .contact-us__form textarea {
   border: 1px solid #fff;
@@ -1158,6 +1197,16 @@ ul {
 
 .contact-us__button > * {
   min-width: 117px;
+}
+
+.contact-us__link a {
+  margin-left: 11px;
+  text-decoration: none;
+  color: #544837;
+}
+
+.contact-us__link a:hover {
+  text-decoration: underline;
 }
 
 .navigation {

@@ -3,6 +3,14 @@
   padding: 62px 82px;
 }
 
+.contact-us__link{
+  margin: 0 0 19px;
+  display:flex;
+  align-items: center;
+  @include font($size:25px, $height:26px,$weight:normal)
+
+}
+
 .contact-us__form {
   input,
   textarea {
@@ -30,4 +38,15 @@
   > * {
     min-width: 117px;
   }
+}
+
+.contact-us__link a {
+  margin-left: 11px;
+  text-decoration: none;
+  color: $color-text;
+  // @extend %transition;
+}
+
+.contact-us__link a:hover {
+  text-decoration: underline;
 }

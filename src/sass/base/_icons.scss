@@ -54,4 +54,28 @@
   height: 17px;
 }
 
+.ico_phone {
+  background-image:url('../../../src/img/icons/phone.svg') ;
+  width: 13px;
+  height: 13px;
+}
+
+.ico_letter { background-image:url('../../../src/img/icons/letter.svg') ;
+  width: 11px;
+  height: 8px;
+}
+
+.icon-round {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-round_white {
+  background-color: #ffffff;
+}
+
 
