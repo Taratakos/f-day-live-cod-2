@@ -11,14 +11,20 @@
   flex-grow: 1;
 }
 
-.footer-navigation__links a {
-  color: $color-text;
-  text-decoration: none;
-  @include font($size: 16px, $height: 35px, $weight: 400);
-  @extend %transition;
-  @extend %font-add;
+.footer-navigation__title{
+  margin: 0 0 15px;
 }
 
-.footer-navigation__links a:hover {
-  color: $color-primary;
+.footer-navigation__links  {
+  @extend %font-add;
+  a {
+    color: $color-text;
+    text-decoration: none;
+    @include font($size: 16px, $height: 35px, $weight: 400);
+    @extend %transition;
+    &:hover {
+      color: $color-primary;
+    }
+  }
 }
+

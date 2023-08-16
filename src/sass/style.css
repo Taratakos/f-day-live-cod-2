@@ -401,7 +401,7 @@ ul {
   box-sizing: border-box;
 }
 
-.navigation__link, .footer-navigation__links a, .logo-path {
+.navigation__link, .employee__contact, .footer-navigation__links a, .logo-path {
   transition: all 0.3s ease-out;
 }
 
@@ -409,7 +409,7 @@ ul {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-.promo__text, .footer-navigation__links a, .link-button, h1 {
+.promo__text, .footer-navigation__links, .link-button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -1066,6 +1066,10 @@ ul {
   flex-grow: 1;
 }
 
+.footer-navigation__title {
+  margin: 0 0 15px;
+}
+
 .footer-navigation__links a {
   color: #544837;
   text-decoration: none;
@@ -1074,7 +1078,6 @@ ul {
   line-height: 35px;
   font-weight: 400;
 }
-
 .footer-navigation__links a:hover {
   color: #ff9900;
 }
@@ -1126,6 +1129,7 @@ ul {
   display: flex;
   padding: 35px;
   position: relative;
+  width: calc(30% - 32px);
 }
 
 .employee__name {
@@ -1148,6 +1152,10 @@ ul {
   line-height: 14px;
   font-weight: normal;
 }
+.employee__contact:hover {
+  text-decoration: underline;
+  color: #ff9900;
+}
 
 .employee__photo {
   border-radius: 50%;
@@ -1156,6 +1164,7 @@ ul {
   height: 98px;
   top: 20px;
   right: -32px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .contact-us {
